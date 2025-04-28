@@ -1,0 +1,25 @@
+
+.auth-prompt {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-color);
+    background: var(--card-bg);
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2rem;
+  }

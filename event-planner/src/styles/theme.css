@@ -1,0 +1,30 @@
+
+:root {
+    --primary-color: #4a6fa5;
+    --secondary-color: #166088;
+    --accent-color: #4fc3f7;
+    --text-color: #333;
+    --bg-color: #fff;
+  }
+  
+  .dark {
+    --primary-color: #6b8cae;
+    --secondary-color: #4a6fa5;
+    --accent-color: #81d4fa;
+    --text-color: #f5f5f5;
+    --bg-color: #1a1a1a;
+  }
+  
+  
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--secondary-color);
+  }
